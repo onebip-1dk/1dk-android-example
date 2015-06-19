@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="https://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <string name="onedk_app_id">dfad2ac0-f98c-49a2-bcbd-d658c2d733bc</string>
+    <string name="onedk_top_banner_id">286ceb25-5fec-42a2-a3e3-96a45554f93c</string>
+    <string name="onedk_bottom_banner_id">24410b5d-883d-4640-9545-46e6b41f5197</string>
+    <string name="onedk_interstitial_id">524b0e94-9026-4870-a6f3-aefb7a736d1a</string>
+
+</resources>
