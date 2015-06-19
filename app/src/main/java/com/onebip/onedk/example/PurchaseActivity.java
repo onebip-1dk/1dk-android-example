@@ -85,7 +85,7 @@ public class PurchaseActivity extends Activity {
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
-                convertView = getLayoutInflater().inflate(R.layout.purchasable_item, parent);
+                convertView = getLayoutInflater().inflate(R.layout.purchasable_item, parent, false);
             }
             TextView tvName = (TextView) convertView.findViewById(R.id.item_name);
             TextView tvDescription = (TextView) convertView.findViewById(R.id.item_description);
