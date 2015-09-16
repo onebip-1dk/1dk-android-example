@@ -31,6 +31,14 @@ public class MainActivity extends Activity {
             }
         });
 
+        Button buttonVideo = (Button) findViewById(R.id.button_video);
+        buttonVideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showVideo();
+            }
+        });
+
         Button buttonPurchase = (Button) findViewById(R.id.button_purchase);
         buttonPurchase.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +50,10 @@ public class MainActivity extends Activity {
 
     private void showInterstitial() {
         OneDk.getInstance().showInterstitial(this, R.string.onedk_interstitial_id);
+    }
+
+    private void showVideo() {
+        OneDk.getInstance().showVideo(this, R.string.onedk_video_id);
     }
 
     private void startPurchase() {
